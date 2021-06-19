@@ -1,9 +1,164 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+body{
+  font-family: 'Shippori Mincho B1', serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #A2AAB0; /*Gray color*/
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 600;
+  
 }
 
-#greeting-container {
-  margin-top: 20px;
+
+.profilePhoto{
+  border-radius: 50%;
+  width: 250px;
+  margin: 0 auto;
+  transform: translateZ(20px);
+  
+}
+
+#About{
+  width: 100%;
+  background-color: #4C5970; /*Gray blue color*/
+  padding: 50px 0;
+  
+}
+
+#About>div{
+  padding: 40px 20px;
+  background: rgb(23, 15, 68,0.1); /*Purple almost transparent color*/
+  color: white;
+  max-width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+  height: fit-content;
+  box-shadow:20px 20px 50px rgba(0, 0, 0, 1); /*Black color*/
+  border-radius: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5); /*Gray (White transparent)*/
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  transform-style: preserve-3d;
+  transform: perspective(500px);
+}
+
+nav{
+  text-align: center;
+  background-color: #EBECED; /*White*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 20px 42px;
+  background-color: #3D3D3A; /*Dark gray*/
+  display: inline-block;
+  min-width: 150px;
+
+}
+
+nav div{
+  text-align: center;
+  margin: 0 auto;
+  
+  width: auto;
+}
+
+a:hover{
+  color: #00A8B4; /*Sky blue*/
+}
+
+header{
+  margin-top: 69px;
+}
+
+h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  clear: both;
+}
+
+section>div, footer>div{
+  max-width: 1150px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.Highshool{
+  padding-bottom: 130px;
+}
+
+.left{
+  float: left;
+  width: calc(40% - 20px);
+  padding: 0 10px;
+}
+
+.right{
+  float: left;
+  width: calc(60% - 20px);
+  padding: 0 10px;
+}
+
+h3{
+  font-weight: 700;
+}
+
+h3:after{
+  clear: both;
+  display: table;
+  
+}
+
+footer{
+  text-align: center;
+  background-color: #4C5970; /*Gray blue color*/
+}
+
+svg{
+  width: 50px;
+  height: 50px;
+  fill: black;
+}
+
+svg:hover{
+  fill: blueviolet;
+}
+
+footer a{
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+#Education{
+  /*rgba(52, 170, 216, 0.836) Blue sky color*/
+  /*#4c5970a1 Gary blue color*/
+  background: linear-gradient(rgba(52, 170, 216, 0.836), #4c5970a1), url("SRC/mty.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.twitter:hover{
+  fill: #00ACEE; /*Twitter blue color*/
+}
+
+.insta:hover path{
+  fill: url(#rg);
+}
+
+.git:hover{
+  fill: rgb(128, 0, 128); /*Purple*/
+}
+
+.mail:hover{
+  fill: white;
 }
