@@ -9,9 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600;700;800&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="fetchScript.js"></script>
 </head>
 
-<body>
+<body onload="showServerHello()">
   <!-- Intro -->
   <header>
     <nav>
@@ -26,8 +27,9 @@
     <div id="About">
       <div>
         <img src="SRC/ProfilePhoto.jpg" alt="Photo of Rodrigo Saucedo" class="profilePhoto" />
-        <h1>José Rodrigo Saucedo Cruz</h1>
+        <h1></h1>
         <h2>Computer Science Student</h2>
+        <h3></h3>
       </div>
     </div>
   </header>
@@ -109,6 +111,13 @@
   <footer id="Contact">
     <div>
       <h2>Let's Keep in Touch!</h2>
+
+      <form action="/form-handler" method="POST">
+        <p>Leave your feedback or contact info:</p>
+        <textarea name="text-input" type="text" onfocus="this.value=''">Type Here</textarea>
+        <br/>
+        <input type="submit" />
+      </form>
 
       <!-- Social media and contact links. Add or remove any networks. -->
       <div>

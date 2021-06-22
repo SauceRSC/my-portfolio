@@ -3,10 +3,11 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #A2AAB0; /*Gray color*/
+  background-color: #494f52; /*Gray color*/
   font-size: 20px;
   text-align: justify;
   font-weight: 600;
+  color: #e8e6e3; /*Kind of white*/
   
 }
 
@@ -21,7 +22,7 @@ body{
 
 #About{
   width: 100%;
-  background-color: #4C5970; /*Gray blue color*/
+  background-color: #2e3543; /*Gray Blue color*/
   padding: 50px 0;
   
 }
@@ -29,15 +30,15 @@ body{
 #About>div{
   padding: 40px 20px;
   background: rgb(23, 15, 68,0.1); /*Purple almost transparent color*/
-  color: white;
+  color: rgb(232, 230, 227); /*Kind of white color*/
   max-width: 1150px;
   margin: 0 auto;
   text-align: center;
   height: fit-content;
   box-shadow:20px 20px 50px rgba(0, 0, 0, 1); /*Black color*/
   border-radius: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5); /*Gray (White transparent)*/
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(48, 52, 54, 0.5); /*Gray (White transparent)*/
+  border-left: 1px solid rgba(48, 52, 54, 0.5);
   backdrop-filter: blur(5px);
   transform-style: preserve-3d;
   transform: perspective(500px);
@@ -45,7 +46,7 @@ body{
 
 nav{
   text-align: center;
-  background-color: #EBECED; /*White*/
+  background-color: #1c1e1f; /*Very dark gray*/
   position: fixed;
   top: 0;
   width: 100%;
@@ -56,9 +57,9 @@ nav{
 nav a{
   text-decoration: none;
   font-size: 20px;
-  color: whitesmoke;
+  color: rgb(226, 223, 219);  /*Almost white*/
   padding: 20px 42px;
-  background-color: #3D3D3A; /*Dark gray*/
+  background-color: #242728; /*Dark gray*/
   display: inline-block;
   min-width: 150px;
 
@@ -120,13 +121,25 @@ h3:after{
 
 footer{
   text-align: center;
-  background-color: #4C5970; /*Gray blue color*/
+  background-color: #3d475a; /*Gray blue color*/
+}
+
+textarea{
+  border-color:#e3e3e3; /*Kind of white*/
+  background-color: #181a1b; /*Almost Black color*/
+  color: #d5d4d1; /*Very light gray*/
+}
+
+input{
+  border-color:#e3e3e3; /*Kind of white*/
+  background-color: #181a1b; /*Almost black color*/
+  color: #d5d4d1; /*Very light gray*/
 }
 
 svg{
   width: 50px;
   height: 50px;
-  fill: black;
+  fill: #e8e6e3; /*Kind of white*/
 }
 
 svg:hover{
@@ -140,7 +153,7 @@ footer a{
 
 #Education{
   /*rgba(52, 170, 216, 0.836) Blue sky color*/
-  /*#4c5970a1 Gary blue color*/
+  /*#4c5970a1 Gray blue color*/
   background: linear-gradient(rgba(52, 170, 216, 0.836), #4c5970a1), url("SRC/mty.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -160,5 +173,5 @@ footer a{
 }
 
 .mail:hover{
-  fill: white;
+  fill: rgb(52, 170, 216); /*Sky Blue color*/
 }
