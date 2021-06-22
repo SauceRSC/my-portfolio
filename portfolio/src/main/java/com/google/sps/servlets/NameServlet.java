@@ -28,7 +28,7 @@ public class NameServlet extends HttpServlet {
     json += "\"" + "José Rodrigo Saucedo Cruz" + "\"";
     json += ", ";
     json += "\"Facts\": ";
-    json += "[\"Pug Lover\",\"Taco Lover\",\"Main C++ Developer\",\"My favorite pokemon is charmander\",\"My favorite superheroe is Iron Man\",\"I like to go for a run\", \"I like going to the gym\"]";
+    json += "[\"Pug Lover\",\"Taco Lover\",\"My favorite pokemon is charmander\",\"My favorite superheroe is Iron Man\",\"I like to go for a run\", \"I like going to the gym\"]";
     json += "}";
     return json;
   }
