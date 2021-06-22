@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #A2AAB0;
+  background-color: #A2AAB0; /*Gray color*/
   font-size: 20px;
   text-align: justify;
   font-weight: 600;
@@ -11,7 +11,7 @@ body{
 }
 
 
-.pp{
+.profilePhoto{
   border-radius: 50%;
   width: 250px;
   margin: 0 auto;
@@ -21,22 +21,22 @@ body{
 
 #About{
   width: 100%;
-  background-color: #4C5970;
+  background-color: #4C5970; /*Gray blue color*/
   padding: 50px 0;
   
 }
 
 #About>div{
   padding: 40px 20px;
-  background: rgb(23, 15, 68,0.1);
+  background: rgb(23, 15, 68,0.1); /*Purple almost transparent color*/
   color: white;
   max-width: 1150px;
   margin: 0 auto;
   text-align: center;
   height: fit-content;
-  box-shadow:20px 20px 50px rgba(0, 0, 0, 1);
+  box-shadow:20px 20px 50px rgba(0, 0, 0, 1); /*Black color*/
   border-radius: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5); /*Gray (White transparent)*/
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   transform-style: preserve-3d;
@@ -45,7 +45,7 @@ body{
 
 nav{
   text-align: center;
-  background-color: #EBECED;
+  background-color: #EBECED; /*White*/
   position: fixed;
   top: 0;
   width: 100%;
@@ -58,7 +58,7 @@ nav a{
   font-size: 20px;
   color: whitesmoke;
   padding: 20px 42px;
-  background-color: #3D3D3A;
+  background-color: #3D3D3A; /*Dark gray*/
   display: inline-block;
   min-width: 150px;
 
@@ -72,7 +72,7 @@ nav div{
 }
 
 a:hover{
-  color: #00A8B4;
+  color: #00A8B4; /*Sky blue*/
 }
 
 header{
@@ -120,7 +120,7 @@ h3:after{
 
 footer{
   text-align: center;
-  background-color: #4C5970;
+  background-color: #4C5970; /*Gray blue color*/
 }
 
 svg{
@@ -139,7 +139,8 @@ footer a{
 }
 
 #Education{
-  
+  /*rgba(52, 170, 216, 0.836) Blue sky color*/
+  /*#4c5970a1 Gary blue color*/
   background: linear-gradient(rgba(52, 170, 216, 0.836), #4c5970a1), url("SRC/mty.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -147,7 +148,7 @@ footer a{
 }
 
 .twitter:hover{
-  fill: #00ACEE;
+  fill: #00ACEE; /*Twitter blue color*/
 }
 
 .insta:hover path{
@@ -155,7 +156,7 @@ footer a{
 }
 
 .git:hover{
-  fill: rgb(128, 0, 128);
+  fill: rgb(128, 0, 128); /*Purple*/
 }
 
 .mail:hover{
